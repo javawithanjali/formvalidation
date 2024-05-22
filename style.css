@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    background-color: rgb(196, 152, 152);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+ 
+} 
+
+
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+ 
+}
+ 
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+  
+    border-radius: 5px;
+    background-color:royalblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+    background-color: yellow;
+}
+
